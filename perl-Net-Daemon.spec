@@ -4,8 +4,7 @@
 
 %define		_noautoreq	'perl(Thread)'
 
-Summary:	Net::Daemon perl module
-Summary(pl):	Modu³ perla Net::Daemon
+Summary:	Net::Daemon - Perl extension for portable daemons
 Name:		perl-Net-Daemon
 Version:	0.36
 Release:	3
@@ -18,10 +17,9 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Net::Daemon perl module.
-
-%description -l pl
-Modu³ perla Net::Daemon.
+Net::Daemon is an abstract base class for implementing portable server
+applications in a very simple way. The module is designed for Perl 5.005
+and threads, but can work with fork() and Perl 5.004.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
