@@ -29,7 +29,7 @@ applications in a very simple way. The module is designed for Perl
 %description -l pl
 Net::Daemon to abstrakcyjna klasa bazowa do implementowania
 przeno¶nych aplikacji serwerowych w bardzo prosty sposób. Ten modu³
-by³ projektowany dla Perla 5.005 z w±tkami, ale mo¿e dzia³±æ tak¿e z
+by³ projektowany dla Perla 5.005 z w±tkami, ale mo¿e dzia³aæ tak¿e z
 funkcj± fork() i Perlem 5.004.
 
 %prep
