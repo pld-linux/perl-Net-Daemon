@@ -9,7 +9,6 @@ Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Net/Net-Daemon-%{version}.tar.gz
-Patch0:		%{name}-nothreads.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 %requires_eq	perl
@@ -24,7 +23,6 @@ Modu³ perla Net-Daemon.
 
 %prep
 %setup -q -n Net-Daemon-%{version}
-%patch0 -p1
 
 %build
 perl Makefile.PL
