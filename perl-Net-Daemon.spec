@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	Daemon
-Summary:	Net::Daemon module - Perl extension for portable daemons
-Summary(pl):	Modu³ Net::Daemon - perlowe rozszerzenie dla przeno¶nych demonów
+Summary:	Net::Daemon - Perl extension for portable daemons
+Summary(pl):	Net::Daemon - perlowe rozszerzenie dla przeno¶nych demonów
 Name:		perl-Net-Daemon
 Version:	0.38
 Release:	1
