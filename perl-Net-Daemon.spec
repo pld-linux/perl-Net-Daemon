@@ -2,8 +2,8 @@
 Summary:	Net-Daemon perl module
 Summary(pl):	Modu³ perla Net-Daemon
 Name:		perl-Net-Daemon
-Version:	0.34
-Release:	2
+Version:	0.35
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
