@@ -4,8 +4,8 @@
 
 %define		_noautoreq	'perl(Thread)'
 
-Summary:	Net-Daemon perl module
-Summary(pl):	Modu³ perla Net-Daemon
+Summary:	Net::Daemon perl module
+Summary(pl):	Modu³ perla Net::Daemon
 Name:		perl-Net-Daemon
 Version:	0.36
 Release:	3
@@ -18,10 +18,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Net-Daemon perl module.
+Net::Daemon perl module.
 
 %description -l pl
-Modu³ perla Net-Daemon.
+Modu³ perla Net::Daemon.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
