@@ -1,3 +1,5 @@
+%define	pdir	Net
+%define	pnam	Daemon
 
 %define		_noautoreq	'perl(Thread)'
 
@@ -6,7 +8,8 @@ Summary:	Net-Daemon perl module
 Summary(pl):	Modu³ perla Net-Daemon
 Name:		perl-Net-Daemon
 Version:	0.36
-Release:	1
+Release:	2
+
 License:	GPL
 Group:		Development/Languages/Perl
 Group(cs):	Vývojové prostøedky/Programovací jazyky/Perl
@@ -17,7 +20,7 @@ Group(ja):	³«È¯/¸À¸ì/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Group(pt):	Desenvolvimento/Linguagens/Perl
 Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Net/Net-Daemon-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 BuildArch:	noarch
