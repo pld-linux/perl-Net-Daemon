@@ -1,0 +1,13 @@
+diff -ruN Net-Daemon-0.32.orig/lib/Net/Daemon.pm Net-Daemon-0.32/lib/Net/Daemon.pm
+--- Net-Daemon-0.32.orig/lib/Net/Daemon.pm	Sun Dec  3 17:29:10 2000
++++ Net-Daemon-0.32/lib/Net/Daemon.pm	Sun Dec  3 17:29:57 2000
+@@ -264,8 +264,7 @@
+ 	}
+     }
+ 
+-    if ($self->{'mode'} eq 'threads') {
+-	require Thread;
++    if ($self->{'mode'} eq 'threads') { require Thread;
+     } elsif ($self->{'mode'} eq 'fork') {
+ 	# Initialize forking mode ...
+     } elsif ($self->{'mode'} eq 'single') {
