@@ -1,9 +1,12 @@
+
+%define		_noautoreq	'perl(Thread)'
+
 %include	/usr/lib/rpm/macros.perl
 Summary:	Net-Daemon perl module
 Summary(pl):	Modu³ perla Net-Daemon
 Name:		perl-Net-Daemon
 Version:	0.35
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
