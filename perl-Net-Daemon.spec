@@ -10,7 +10,7 @@ Summary(pl):	Net::Daemon - perlowe rozszerzenie dla przeno¶nych demonów
 Name:		perl-Net-Daemon
 Version:	0.38
 Release:	1
-License:	GPL/Artistic
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b8e587cee7a2c4246c1bb507f6eaa81e
@@ -45,7 +45,8 @@ funkcj± fork() i Perlem 5.004.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
