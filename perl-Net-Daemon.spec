@@ -7,7 +7,7 @@
 Summary:	Net::Daemon - Perl extension for portable daemons
 Name:		perl-Net-Daemon
 Version:	0.36
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
