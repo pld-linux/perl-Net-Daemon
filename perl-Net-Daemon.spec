@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	Daemon
 Summary:	Net::Daemon - Perl extension for portable daemons
-Summary(pl):	Net::Daemon - perlowe rozszerzenie dla przeno∂nych demonÛw
+Summary(pl.UTF-8):   Net::Daemon - perlowe rozszerzenie dla przeno≈õnych demon√≥w
 Name:		perl-Net-Daemon
 Version:	0.39
 Release:	1
@@ -26,11 +26,11 @@ Net::Daemon is an abstract base class for implementing portable server
 applications in a very simple way. The module is designed for Perl
 5.005 and threads, but can work with fork() and Perl 5.004.
 
-%description -l pl
+%description -l pl.UTF-8
 Net::Daemon to abstrakcyjna klasa bazowa do implementowania
-przeno∂nych aplikacji serwerowych w bardzo prosty sposÛb. Ten modu≥
-by≥ projektowany dla Perla 5.005 z w±tkami, ale moøe dzia≥aÊ takøe z
-funkcj± fork() i Perlem 5.004.
+przeno≈õnych aplikacji serwerowych w bardzo prosty spos√≥b. Ten modu≈Ç
+by≈Ç projektowany dla Perla 5.005 z wƒÖtkami, ale mo≈ºe dzia≈Çaƒá tak≈ºe z
+funkcjƒÖ fork() i Perlem 5.004.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
