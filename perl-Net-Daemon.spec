@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	Daemon
 Summary:	Net::Daemon - Perl extension for portable daemons
-Summary(pl.UTF-8):   Net::Daemon - perlowe rozszerzenie dla przenośnych demonów
+Summary(pl.UTF-8):	Net::Daemon - perlowe rozszerzenie dla przenośnych demonów
 Name:		perl-Net-Daemon
 Version:	0.39
 Release:	1
