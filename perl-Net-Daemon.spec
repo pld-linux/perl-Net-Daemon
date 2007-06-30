@@ -8,12 +8,12 @@
 Summary:	Net::Daemon - Perl extension for portable daemons
 Summary(pl.UTF-8):	Net::Daemon - perlowe rozszerzenie dla przenośnych demonów
 Name:		perl-Net-Daemon
-Version:	0.41
+Version:	0.43
 Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	2243c25672507ce15e6d66cdd954fba0
+# Source0-md5:	a173a8407fb7b049aa465598eca6dfd7
 URL:		http://search.cpan.org/dist/Net-Daemon/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
