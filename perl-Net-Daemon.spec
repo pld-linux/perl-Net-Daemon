@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Net
 %define		pnam	Daemon
 Summary:	Net::Daemon - Perl extension for portable daemons
