@@ -13,9 +13,10 @@ License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	771f9ba01c3b033ed8cc3d6bad36e5fb
-URL:		http://search.cpan.org/dist/Net-Daemon/
+URL:		https://metacpan.org/release/Net-Daemon
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -56,4 +57,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc ChangeLog README
 %{perl_vendorlib}/Net/Daemon.pm
 %{perl_vendorlib}/Net/Daemon
-%{_mandir}/man3/*
+%{_mandir}/man3/Net::Daemon*.3pm*
