@@ -1,22 +1,24 @@
 #
 # Conditional build:
-%bcond_with	tests	# perform "make test"
+%bcond_with	tests	# unit tests
 #
 %define		pdir	Net
 %define		pnam	Daemon
 Summary:	Net::Daemon - Perl extension for portable daemons
 Summary(pl.UTF-8):	Net::Daemon - perlowe rozszerzenie dla przenośnych demonów
 Name:		perl-Net-Daemon
-Version:	0.48
+Version:	0.49
 Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	771f9ba01c3b033ed8cc3d6bad36e5fb
-URL:		https://metacpan.org/release/Net-Daemon
+Source0:	https://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	e6fe2b2a9e85a6bb23fc47c0cc03649c
+URL:		https://metacpan.org/dist/Net-Daemon
+BuildRequires:	perl-Sys-Syslog >= 0.29
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.745
+Requires:	perl-Sys-Syslog >= 0.29
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
