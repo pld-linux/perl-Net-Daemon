@@ -11,7 +11,7 @@ Version:	0.52
 Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
-Source0:	https://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	https://www.cpan.org/modules/by-authors/id/T/TO/TODDR/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	42e707869bbe08b88b6b4bf5c27ce256
 URL:		https://metacpan.org/dist/Net-Daemon
 BuildRequires:	perl-Sys-Syslog >= 0.29
